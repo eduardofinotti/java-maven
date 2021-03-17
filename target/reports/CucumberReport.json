@@ -1,0 +1,70 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Verificar o título dos cartões",
+        "description": "",
+        "id": "cartões;verificar-o-título-dos-cartões",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2395096100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "abro a url",
+            "match": {
+              "location": "TestSearch.abro_a_url()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 224196100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "preencho o campo",
+            "match": {
+              "location": "TestSearch.preencho_o_campo()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1234945800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "clico no botao",
+            "match": {
+              "location": "TestSearch.clico_no_botao()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@teste"
+          }
+        ]
+      }
+    ],
+    "name": "CARTÕES",
+    "description": "",
+    "id": "cartões",
+    "keyword": "Funcionalidade",
+    "uri": "login.feature"
+  }
+]
