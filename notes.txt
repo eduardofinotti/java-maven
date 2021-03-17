@@ -1,0 +1,48 @@
+Baixar JAVA
+Baixar InteliJJ
+
+Onde iniciar:
+Criar projeto
+
+Download chrome driver: (verificar plataforma)
+https://sites.google.com/a/chromium.org/chromedriver/downloads
+
+Criar estrutura de pastas
+
+O que é maven?
+O que é JUnit?
+
+Colocar as dependencias no pom.xml
+
+Criar o runner.Hooks e executar
+
+Criar os stepDefinitions
+
+Exemplo:
+//
+//    public void Login() {
+//        driver.get("http://demo.guru99.com/");
+//        WebElement element = driver.findElement(By.xpath("//input[@name='emailid']"));
+//        element.sendKeys("abc@gmail.com");
+//
+//        WebElement button = driver.findElement(By.xpath("//input[@name='btnLogin']"));
+//        button.click();
+//
+//    }
+
+
+Criar Page Objects
+
+Assert
+
+relatorios
+mvn cluecumber-report:reporting
+
+to run:
+mvn test -Dcucumber.options="--tags @teste"
+
+
+
+
+
+
